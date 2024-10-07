@@ -1,0 +1,169 @@
+/Users/christophercollado/Desktop/cohort
+ChristophersMBP:cohort christophercollado$ mkdir galaxy-far-far-away
+ChristophersMBP:cohort christophercollado$ cd galaxy-far-far-away
+ChristophersMBP:galaxy-far-far-away christophercollado$ fwd
+bash: fwd: command not found
+ChristophersMBP:galaxy-far-far-away christophercollado$ pwd
+/Users/christophercollado/Desktop/cohort/galaxy-far-far-away
+ChristophersMBP:galaxy-far-far-away christophercollado$ touch commands.txt
+ChristophersMBP:galaxy-far-far-away christophercollado$ cd 2024-10-04-command-line
+bash: cd: 2024-10-04-command-line: No such file or directory
+ChristophersMBP:galaxy-far-far-away christophercollado$ pwd
+/Users/christophercollado/Desktop/cohort/galaxy-far-far-away
+ChristophersMBP:galaxy-far-far-away christophercollado$ cd module301
+ChristophersMBP:galaxy-far-far-away christophercollado$ cd module301/2024-10-04-command-line
+bash: cd: module301/2024-10-04-command-line: No such file or directory
+ChristophersMBP:galaxy-far-far-away christophercollado$ cd 2024-10-04-command-line
+bash: cd: 2024-10-04-command-line: No such file or directory
+ChristophersMBP:galaxy-far-far-away christophercollado$ cd ..
+ChristophersMBP:cohort christophercollado$ cd 2024-10-04-command-line
+bash: cd: 2024-10-04-command-line: No such file or directory
+ChristophersMBP:cohort christophercollado$ cd module301
+ChristophersMBP:module301 christophercollado$ 2024-10-04-command-line
+bash: 2024-10-04-command-line: command not found
+ChristophersMBP:module301 christophercollado$ cd 2024-10-04-command-line
+ChristophersMBP:2024-10-04-command-line christophercollado$ mkdir galaxy-far-far-away
+ChristophersMBP:2024-10-04-command-line christophercollado$ touch commands.txt
+ChristophersMBP:2024-10-04-command-line christophercollado$ cd galaxy-far-far-away
+ChristophersMBP:galaxy-far-far-away christophercollado$ mkdir death_star
+ChristophersMBP:galaxy-far-far-away christophercollado$ cd death_star
+ChristophersMBP:death_star christophercollado$ pwd
+/Users/christophercollado/Desktop/cohort/module301/2024-10-04-command-line/galaxy-far-far-away/death_star
+ChristophersMBP:death_star christophercollado$ touch darth_vader.txt
+ChristophersMBP:death_star christophercollado$ touch princess_leia.txt
+ChristophersMBP:death_star christophercollado$ touch storm_trooper.txt
+ChristophersMBP:death_star christophercollado$ cd ..
+ChristophersMBP:galaxy-far-far-away christophercollado$ mkdir tatooine
+ChristophersMBP:galaxy-far-far-away christophercollado$ cd tatooine 
+ChristophersMBP:tatooine christophercollado$ touch luke.txt
+ChristophersMBP:tatooine christophercollado$ touch ben_kenobi.txt
+ChristophersMBP:tatooine christophercollado$ mkdir mellenium_falcon
+ChristophersMBP:tatooine christophercollado$ cd mellenium_falcon
+ChristophersMBP:mellenium_falcon christophercollado$ touch han_solo.txt
+ChristophersMBP:mellenium_falcon christophercollado$ touch chewbaca.txt
+ChristophersMBP:mellenium_falcon christophercollado$ mv ben_kenobi.txt obi_wan.txt
+mv: rename ben_kenobi.txt to obi_wan.txt: No such file or directory
+ChristophersMBP:mellenium_falcon christophercollado$ pwd
+/Users/christophercollado/Desktop/cohort/module301/2024-10-04-command-line/galaxy-far-far-away/tatooine/mellenium_falcon
+ChristophersMBP:mellenium_falcon christophercollado$ cd ..
+ChristophersMBP:tatooine christophercollado$ mv ben_kenobi.txt obi_wan.txt
+ChristophersMBP:tatooine christophercollado$ cd ..
+ChristophersMBP:galaxy-far-far-away christophercollado$ cd death_star
+ChristophersMBP:death_star christophercollado$ cp storm_trooper.txt ../tatooine
+ChristophersMBP:death_star christophercollado$ cd tatooine
+bash: cd: tatooine: No such file or directory
+ChristophersMBP:death_star christophercollado$ cd ..
+ChristophersMBP:galaxy-far-far-away christophercollado$ cd tatooine
+ChristophersMBP:tatooine christophercollado$ mv luke.txt mellenium_falcon
+ChristophersMBP:tatooine christophercollado$ mv obi_wan.txt mellenium_falcon
+ChristophersMBP:tatooine christophercollado$ mv mellenium_falcon galaxy-far-far-away
+ChristophersMBP:tatooine christophercollado$ mv galaxy-far-far-away mellenium_falcon
+ChristophersMBP:tatooine christophercollado$ mv mellenium_falcon ../.galaxy-far-far-away
+ChristophersMBP:tatooine christophercollado$ cd ..
+ChristophersMBP:galaxy-far-far-away christophercollado$ cd .galaxy-far-far-away
+ChristophersMBP:.galaxy-far-far-away christophercollado$ mv .galaxy-far-far-away mellenium_flacon
+mv: rename .galaxy-far-far-away to mellenium_flacon: No such file or directory
+ChristophersMBP:.galaxy-far-far-away christophercollado$ cd ..
+ChristophersMBP:galaxy-far-far-away christophercollado$ mv .galaxy-far-far-away mellenium_falcon
+ChristophersMBP:galaxy-far-far-away christophercollado$ mv mellenium_falcon death_star/.
+ChristophersMBP:galaxy-far-far-away christophercollado$ cd death_star/
+ChristophersMBP:death_star christophercollado$ mv princess_leia.txt mellenium.falcon/.
+mv: rename princess_leia.txt to mellenium.falcon/.: No such file or directory
+ChristophersMBP:death_star christophercollado$ mv princess_leia.txt mellenium_falcon/.
+ChristophersMBP:death_star christophercollado$ cd m
+ellenium_falcon/
+ChristophersMBP:mellenium_falcon christophercollado$ rm obi_wan.txt 
+ChristophersMBP:mellenium_falcon christophercollado$ cd ..
+ChristophersMBP:death_star christophercollado$ cd ..
+ChristophersMBP:galaxy-far-far-away christophercollado$ mkdir yavin_4
+ChristophersMBP:galaxy-far-far-away christophercollado$ mv death_star/mellenium_falcon/ yavin_4/
+ChristophersMBP:galaxy-far-far-away christophercollado$ cd yavin_4/
+ChristophersMBP:yavin_4 christophercollado$ mkdir x_wing
+ChristophersMBP:yavin_4 christophercollado$ mv mellenium_falcon/princess_leia.txt yavin_4/.
+mv: rename mellenium_falcon/princess_leia.txt to yavin_4/.: No such file or directory
+ChristophersMBP:yavin_4 christophercollado$ pwd
+/Users/christophercollado/Desktop/cohort/module301/2024-10-04-command-line/galaxy-far-far-away/yavin_4
+ChristophersMBP:yavin_4 christophercollado$ cd ..
+ChristophersMBP:galaxy-far-far-away christophercollado$ cd yavin_4/
+ChristophersMBP:yavin_4 christophercollado$ mv mellenium_falcon/princess_leia.txt yavin_4/.
+mv: rename mellenium_falcon/princess_leia.txt to yavin_4/.: No such file or directory
+ChristophersMBP:yavin_4 christophercollado$ ls
+mellenium_falcon        x_wing
+ChristophersMBP:yavin_4 christophercollado$ mv mellenium_falcon/princess_leia.txt yavin_4/.
+mv: rename mellenium_falcon/princess_leia.txt to yavin_4/.: No such file or directory
+ChristophersMBP:yavin_4 christophercollado$ mv mellenium_falcon/princess_leia.txt ../yavin_4
+ChristophersMBP:yavin_4 christophercollado$ ls
+mellenium_falcon        princess_leia.txt       x_wing
+ChristophersMBP:yavin_4 christophercollado$ mv mellenium_falcon/luke.txt x_wing/.
+ChristophersMBP:yavin_4 christophercollado$ pwd
+/Users/christophercollado/Desktop/cohort/module301/2024-10-04-command-line/galaxy-far-far-away/yavin_4
+ChristophersMBP:yavin_4 christophercollado$ cd ..
+ChristophersMBP:galaxy-far-far-away christophercollado$ mv yavin_4/mellenium_falcon/ ../galaxy-far-far-away
+ChristophersMBP:galaxy-far-far-away christophercollado$ mv yavin_4/x_wing/ ../galaxy-far-far-away/
+ChristophersMBP:galaxy-far-far-away christophercollado$ ls
+death_star              x_wing
+mellenium_falcon        yavin_4
+tatooine
+ChristophersMBP:galaxy-far-far-away christophercollado$ cd death_star/
+ChristophersMBP:death_star christophercollado$ mkdir tie_fighter_1
+ChristophersMBP:death_star christophercollado$ mkdi
+r tie_fighter_2 tie_fighter_3
+ChristophersMBP:death_star christophercollado$ mv darth_vader.txt/tie_fighter_1 ../galaxy-far-far-away
+mv: rename darth_vader.txt/tie_fighter_1 to ../galaxy-far-far-away: Not a directory
+ChristophersMBP:death_star christophercollado$ mv darth_vader.txt tie_fighter_1/.
+ChristophersMBP:death_star christophercollado$ cp storm_trooper.txt tie_fighter_2
+ChristophersMBP:death_star christophercollado$ cp storm_trooper.txt tie_fighter_3
+ChristophersMBP:death_star christophercollado$ mv death_star/tie_fighter_1 galaxy-far-far-away/.
+mv: rename death_star/tie_fighter_1 to galaxy-far-far-away/.: No such file or directory
+ChristophersMBP:death_star christophercollado$ mv tie_fighter_1 galaxy-far-far-away/.
+mv: rename tie_fighter_1 to galaxy-far-far-away/.: No such file or directory
+ChristophersMBP:death_star christophercollado$ mv tie_fighter_1 ../galaxy-far-far-away
+ChristophersMBP:death_star christophercollado$ mv tie_fighter_2 ../galaxy-far-far-away
+ChristophersMBP:death_star christophercollado$ mv tie_fighter_3 ../galaxy-far-far-away
+ChristophersMBP:death_star christophercollado$ mv galaxy-far-far-away tie_fighter_1
+mv: rename galaxy-far-far-away to tie_fighter_1: No such file or directory
+ChristophersMBP:death_star christophercollado$ cd ..
+ChristophersMBP:galaxy-far-far-away christophercollado$ mv galaxy-far-far-away tie_fighter_1
+ChristophersMBP:galaxy-far-far-away christophercollado$ mv tie_fighter_2 ../galaxy-far-far-away
+mv: rename tie_fighter_2 to ../galaxy-far-far-away/tie_fighter_2: No such file or directory
+ChristophersMBP:galaxy-far-far-away christophercollado$ mv death_star/tie_fighter_2 ../galaxy-far-far-away
+mv: rename death_star/tie_fighter_2 to ../galaxy-far-far-away/tie_fighter_2: No such file or directory
+ChristophersMBP:galaxy-far-far-away christophercollado$ cd death_star/
+ChristophersMBP:death_star christophercollado$ mv tie_fighter_2 galaxy-far-far-away/.
+mv: rename tie_fighter_2 to galaxy-far-far-away/.: No such file or directory
+ChristophersMBP:death_star christophercollado$ mv tie_fighter_2 ../death_star/
+mv: rename tie_fighter_2 to ../death_star/tie_fighter_2: No such file or directory
+ChristophersMBP:death_star christophercollado$ cd tie_fighter_1
+bash: cd: tie_fighter_1: No such file or directory
+ChristophersMBP:death_star christophercollado$ pwd
+/Users/christophercollado/Desktop/cohort/module301/2024-10-04-command-line/galaxy-far-far-away/death_star
+ChristophersMBP:death_star christophercollado$ ls
+storm_trooper.txt
+ChristophersMBP:death_star christophercollado$ cd tie_fighter_1
+bash: cd: tie_fighter_1: No such file or directory
+ChristophersMBP:death_star christophercollado$ ls
+storm_trooper.txt
+ChristophersMBP:death_star christophercollado$ cd ..
+ChristophersMBP:galaxy-far-far-away christophercollado$ cd tie_fighter_1/
+ChristophersMBP:tie_fighter_1 christophercollado$ mv tie_fighter_2 ../galaxy-far-far-away
+ChristophersMBP:tie_fighter_1 christophercollado$ mv galaxy-far-far-away tie_fighter_2 
+mv: rename galaxy-far-far-away to tie_fighter_2: No such file or directory
+ChristophersMBP:tie_fighter_1 christophercollado$ cd ..
+ChristophersMBP:galaxy-far-far-away christophercollado$ mv galaxy-far-far-away tie_fighter_2
+ChristophersMBP:galaxy-far-far-away christophercollado$ cd tie_fighter_1
+ChristophersMBP:tie_fighter_1 christophercollado$ mv tie_fighter_3/ galaxy-far-far-away/.
+mv: rename tie_fighter_3/ to galaxy-far-far-away/.: No such file or directory
+ChristophersMBP:tie_fighter_1 christophercollado$ mv tie_fighter_3/ ../galaxy-far-far-away
+ChristophersMBP:tie_fighter_1 christophercollado$ cd ..
+ChristophersMBP:galaxy-far-far-away christophercollado$ mv galaxy-far-far-away tie_fighter_3
+ChristophersMBP:galaxy-far-far-away christophercollado$ rm tie_fighter_2
+rm: tie_fighter_2: is a directory
+ChristophersMBP:galaxy-far-far-away christophercollado$ rm -r tie_fighter_2
+ChristophersMBP:galaxy-far-far-away christophercollado$ rm -r tie_fighter_3
+ChristophersMBP:galaxy-far-far-away christophercollado$ cd x_wing
+ChristophersMBP:x_wing christophercollado$ touch the_force.txt
+ChristophersMBP:x_wing christophercollado$ cd ..
+ChristophersMBP:galaxy-far-far-away christophercollado$ rm -r death_star/
+ChristophersMBP:galaxy-far-far-away christophercollado$ mv mellenium_falcon/ yavin_4/.
+ChristophersMBP:galaxy-far-far-away christophercollado$ mv x_wing/ yavin_4/.
+ChristophersMBP:galaxy-far-far-away christophercollado$ 

@@ -1,0 +1,7 @@
+ChristophersMBP:module0 christophercollado$ mkdir module301
+ChristophersMBP:module0 christophercollado$ cd module301
+ChristophersMBP:module301 christophercollado$ mkdir 2024-10-04-command-line
+ChristophersMBP:module301 christophercollado$ cd 2024-10-04-command-line/
+ChristophersMBP:2024-10-04-command-line christophercollado$ touch index.html
+ChristophersMBP:2024-10-04-command-line christophercollado$ touch notes.txt
+ChristophersMBP:2024-10-04-command-line christophercollado$ 
